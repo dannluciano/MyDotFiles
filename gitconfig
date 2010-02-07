@@ -1,0 +1,21 @@
+[user]
+	name = Dann Luciano
+	email = dannluciano@gmail.com
+[color]
+	diff = auto
+	status = auto
+	branch = auto
+	ui = true
+[alias]
+	sh = !git-sh
+	cm = commit
+	co = checkout
+	b = branch
+	st = status
+	who = shortlog -s --
+	fl = log -p
+[core]
+	editor = mate -wl1
+	excludefile = /Users/dannluciano/.gitignore
+[help]
+	autocorrect = 1
