@@ -1,3 +1,5 @@
+export PATH="/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:$PATH"
+
 export EDITOR="/usr/bin/mate -wl1"
 export GREP_OPTIONS="--color=auto"
 export GREP_COLOR="4;33"
@@ -18,7 +20,6 @@ source ~/.git_completion.sh
 source ~/.bash_completion.sh
 
 alias ls="ls -G"
-
 alias colors="sh ~/.colors.sh"
 
 alias showip="ifconfig | grep broadcast | sed 's/.*inet \(.*\) netmask.*/\1/'"
