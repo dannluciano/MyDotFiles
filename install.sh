@@ -7,6 +7,7 @@ cp irbc ~/.irbc
 cp rake_completion.rb ~/.rake_completion.rb
 cp gemrc ~/.gemrc
 cp gitignore ~/.gitignore
+cp gitattributes ~/.gitattributes
 
 chmod 755 ~/.rake_completion.rb
 

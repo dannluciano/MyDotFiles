@@ -1,4 +1,5 @@
 export PATH="/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:$PATH"
+export ARCHFLAGS="-arch i386 -arch x86_64"
 
 export EDITOR="/usr/bin/mate -wl1"
 export GREP_OPTIONS="--color=auto"
