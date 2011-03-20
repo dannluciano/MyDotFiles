@@ -1,20 +1,8 @@
-export PATH="/usr/bin:/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:$PATH"
 export PATH="/usr/local:$PATH"
-export ARCHFLAGS="-arch i386 -arch x86_64"
+export ARCHFLAGS="-arch x86_64"
 
 export GREP_OPTIONS="--color=auto"
 export GREP_COLOR="4;33"
-
-export BLUE="\[\033[0;34m\]"
-export NO_COLOR="\[\e[0m\]"
-export GRAY="\[\033[1;30m\]"
-export GREEN="\[\033[0;32m\]"
-export LIGHT_GRAY="\[\033[0;37m\]"
-export LIGHT_GREEN="\[\033[1;32m\]"
-export LIGHT_RED="\[\033[1;31m\]"
-export RED="\[\033[0;31m\]"
-export WHITE="\[\033[1;37m\]"
-export YELLOW="\[\033[0;33m\]"
 
 source ~/.git_completion.sh
 source ~/.bash_completion.sh
