@@ -1,0 +1,25 @@
+#ifndef _INSTANCE_H_
+#define _INSTANCE_H_
+
+#include <vector>
+#include "customer.hpp"
+#include "type_vehicle.hpp"
+
+class Instance
+{
+private:
+		int number_of_customers;
+		std::vector<Customer> customers;
+
+		int number_of_types_of_vehicles;
+		std::vector<TypeVehicle> types_of_vehicles;
+	
+public:
+		Instance();
+		Instance(int num_customer, const std::vector<Customer>& customers, int num_types_vehicles, const std::vector<TypeVehicle>& types_of_vehicles);
+		int GetNumberOfCustomers() const;
+		int GetNumberOfTypesOfVehicles() const;
+		virtual ~Instance();
+};
+
+#endif /* _INSTANCE_H_ */

@@ -1,0 +1,19 @@
+#include "ant.hpp"
+
+using namespace std;
+
+Ant::Ant() {
+}
+
+Ant::Ant(int size_of_customers) {
+		this->customers = vector<Customer>(size_of_customers);
+		this->vehicles = vector<TypeVehicle>(size_of_customers);
+}
+
+Ant::Ant(const Ant & ant) {
+		this->customers = ant.customers;
+		this->vehicles = ant.vehicles;
+}
+
+Ant::~Ant() {
+}

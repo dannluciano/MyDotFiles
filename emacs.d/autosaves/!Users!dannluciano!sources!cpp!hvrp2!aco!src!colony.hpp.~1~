@@ -1,0 +1,20 @@
+#ifndef _COLONY_HPP_
+#define _COLONY_HPP_
+
+#include <vector>
+#include "instance.hpp"
+#include "ant.hpp"
+
+class Colony
+{
+private:
+		Instance problem;
+		static const int number_of_ants;
+		std::vector<Ant> ants;
+public:
+    Colony();
+		Colony(Instance& problem);
+    virtual ~Colony();
+};
+
+#endif /* _COLONY_H_ */

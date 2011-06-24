@@ -1,0 +1,11 @@
+#include "colony.hpp"
+
+Colony::Colony() {
+}
+
+Colony::Colony(Instance& problem) : problem(problem){
+}
+
+Colony::~Colony()
+{
+}

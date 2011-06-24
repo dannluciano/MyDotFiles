@@ -1,0 +1,28 @@
+#ifndef _ANT_H_
+#define _ANT_H_
+
+#include <iostream>
+#include <vector>
+#include "customer.hpp"
+#include "type_vehicle.hpp"
+
+class Ant
+{
+private:
+		std::vector<Customer> customers;
+		std::vector<TypeVehicle> vehicles;
+    
+public:
+		Ant();
+    Ant(int size_of_customers);
+    Ant(const Ant& ant);
+    virtual ~Ant();
+
+		std::vector<Customer>& GetCustomers();
+		std::vector<TypeVehicle>& GetTypeOfVehicles();
+
+		friend std::ostream& operator<<(std::ostream&, Ant& ant);
+		
+};
+
+#endif /* _ANT_H_ */

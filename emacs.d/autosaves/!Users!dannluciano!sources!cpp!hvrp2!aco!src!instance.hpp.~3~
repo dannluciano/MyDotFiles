@@ -1,0 +1,37 @@
+#ifndef _INSTANCE_H_
+#define _INSTANCE_H_
+
+#include <iostream>
+#include <fstream>
+#include <vector>
+#include "customer.hpp"
+#include "type_vehicle.hpp"
+#include "tools.hpp"
+
+class Instance
+{
+private:
+		unsigned int number_of_customers;
+		std::vector<Customer> customers;
+
+		unsigned int number_of_types_of_vehicles;
+		std::vector<TypeVehicle> types_of_vehicles;
+
+		double sum_demand;
+	
+public:
+		Instance();
+		Instance(int num_customer, const std::vector<Customer>& customers, int num_types_vehicles, const std::vector<TypeVehicle>& types_of_vehicles, double sum_demand);
+
+		unsigned int GetNumberCustomers() const;
+		unsigned int GetNumberTypesVehicles() const;
+		double GetSumDemand() const;
+
+		virtual ~Instance();
+
+		static Instance& ReadConfigFile(const char* file_name);
+
+		friend std::ostream& operator<<(std::ostream& os, Instance& instance);
+};
+
+#endif /* _INSTANCE_H_ */

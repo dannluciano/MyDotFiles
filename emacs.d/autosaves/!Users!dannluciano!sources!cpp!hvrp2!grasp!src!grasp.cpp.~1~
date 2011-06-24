@@ -1,0 +1,53 @@
+#include "grasp.hpp"
+
+using namespace std;
+
+Solution* Grasp::better_solution = NULL;
+
+void Grasp::Initialize()
+{
+  Grasp::better_solution = NULL;
+}
+
+Solution& Grasp::GreedyRandomizedConstruction()
+{
+  return Solution::GenerateContructionSolution();
+}
+
+Solution& Grasp::LocalSearch(Solution& solution)
+{
+  Solution& new_solution = solution.GenerateNeighborhood();
+  solution.CalculateCost();
+  // delete &solution;
+  return new_solution;
+}
+
+void Grasp::UpdateSolution(Solution& solution)
+{
+  if ((Grasp::better_solution == NULL))
+    {
+      Grasp::better_solution = new Solution(solution);
+    }
+  else
+    {
+      if(solution.GetCost() < Grasp::better_solution->GetCost())
+        {
+          delete Grasp::better_solution;
+          Grasp::better_solution = new Solution(solution);
+        }
+    } 
+}
+
+Solution& Grasp::Main()
+{
+  Grasp::Initialize();
+  size_t i;
+  for (i = 0; i < 100000; ++i)
+    {
+      Solution* solution = &Grasp::GreedyRandomizedConstruction();
+      solution = &Grasp::LocalSearch(*solution);
+      Grasp::UpdateSolution(*solution);
+      delete solution;
+    }
+  return *Grasp::better_solution;
+}

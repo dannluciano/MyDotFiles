@@ -1,0 +1,272 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/Users/dannluciano/sources/cpp/hvrp2/grasp/" . "src/")
+ ("/Users/dannluciano/sources/mypage/" . "css/")
+ ("/Users/dannluciano/sources/cpp/hvrp2/aco/" . "src/")
+ ("/Users/dannluciano/sources/cpp/dlib/" . "src/")
+ ("/Users/dannluciano/Mestrado/Textos/" . "grasp/")
+ ("/Users/dannluciano/Mestrado/Produções/" . "problemas de roteamento de veiculos com frotas heterogêneas/")
+ ("/Users/dannluciano/Downloads/bsnes_v078-source/bsnes/gameboy/" . "cpu/")
+ ("/Users/dannluciano/.emacs.d/vendor/yasnippet/snippets/text-mode/cc-mode/" . "c++-mode/")
+ ("/Users/dannluciano/sources/cpp/hvrp2/" . "grasp/")
+ ("/Users/dannluciano/sources/cpp/hvrp/" . "src/")
+ ("/Users/dannluciano/.emacs.d/vendor/yasnippet/snippets/text-mode/" . "cc-mode/")
+ ("/Users/dannluciano/.emacs.d/vendor/yasnippet/snippets/" . "text-mode/")
+ ("/Users/dannluciano/.emacs.d/vendor/yasnippet/" . "snippets/")
+ ("/Users/dannluciano/.emacs.d/vendor/" . "yasnippet/")
+ ("/Users/dannluciano/.emacs.d/" . "auto-save-list/")
+ ("/Users/dannluciano/sources/cpp/hrvp/" . "src/")
+ ("/Users/dannluciano/Mestrado/Produções/" . "grasp_hvrp/")
+ ("/Users/dannluciano/Mestrado/" . "Textos/")
+ ("/Users/dannluciano/sources/cpp/arboretum/lib/" . "gcc/")
+ ("/Users/dannluciano/sources/cpp/arboretum/sample/" . "sample-01_slimtree/")
+ ("/Users/dannluciano/sources/cpp/arboretum/" . "lib/")
+ ("/Users/dannluciano/sources/cpp/aco/src/CMakeFiles/" . "aco.dir/")
+ ("/Users/dannluciano/sources/cpp/aco/src/" . "CMakeFiles/")
+ ("/Users/dannluciano/sources/cpp/oogenetic/" . "src/")
+ ("/" . "Users/")
+ ("/Users/" . "dannluciano/")
+ ("/Users/dannluciano/sources/cpp/aco/" . "src/")
+ ("/Users/dannluciano/sources/cpp/" . "hvrp2/")
+ ("/Users/dannluciano/sources/" . "cpp/")
+ ("/Users/dannluciano/Sources/Lisp/" . "emacs.d/")
+ ("/Users/dannluciano/Sources/CCpp/ann/" . "src/")
+ ("/Users/dannluciano/Sources/CCpp/examples/" . "ann/")
+ ("/Users/dannluciano/Sources/CCpp/" . "ann/")
+ ("/Users/dannluciano/Sources/" . "CCpp/")
+ ("/Users/dannluciano/" . ".emacs.d/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/Users/dannluciano/.emacs.d/"
+ "/Users/dannluciano/sources/cpp/hvrp2/grasp/src/"
+ "/Users/dannluciano/sources/cpp/hvrp2/aco/src/"
+ "/Users/dannluciano/"
+ "/Users/dannluciano/sources/mypage/css/"
+ "/Users/dannluciano/sources/mypage/"
+ "/Users/dannluciano/sources/cpp/arboretum/sample/sample-01_slimtree/"
+ "/Users/dannluciano/Mestrado/Textos/grasp/"
+ "/Users/dannluciano/sources/cpp/dlib/src/"
+ "/Users/dannluciano/sources/cpp/hvrp2/"
+ "/Users/dannluciano/sources/cpp/hvrp2/src/"
+ "/Users/dannluciano/.ssh/"
+ "/Users/dannluciano/Mestrado/Produções/grasp_hvrp/"
+ "/Users/dannluciano/Mestrado/Produções/grasp_hvrp/"
+ "/Users/dannluciano/Mestrado/Produções/hvrp/"
+ "/Users/dannluciano/sources/cpp/hvrp2/instances/"
+ "/Users/dannluciano/Downloads/bsnes_v078-source/bsnes/gameboy/cpu/"
+ "/Users/dannluciano/.emacs.d/vendor/"
+ "/Users/dannluciano/Mestrado/Produções/problemas de roteamento de veiculos com frotas heterogêneas/"
+ "/usr/bin/"
+ "/Users/dannluciano/.emacs.d/vendor/yasnippet/snippets/text-mode/cc-mode/c++-mode/"
+ "/Users/dannluciano/sources/cpp/hvrp/src/"
+ "/Users/dannluciano/.emacs.d/tutorial/"
+ "/Users/dannluciano/.emacs.d/vendor/yasnippet/snippets/text-mode/cc-mode/"
+ "/Users/dannluciano/sources/cpp/hvrp/"
+ "/Users/dannluciano/sources/cpp/hvrp/instances/"
+ "/Users/dannluciano/sources/cpp/hvrp/.git/"
+ "/Users/dannluciano/sources/cpp/hrvp/src/"
+ "/Users/dannluciano/sources/cpp/hrvp/"
+ "/Users/dannluciano/sources/cpp/"
+ "/Users/dannluciano/sources/cpp/arboretum/lib/gcc/"
+ "/Users/dannluciano/sources/cpp/mini_bench/test/"
+ "/Users/dannluciano/sources/cpp/mini_bench/"
+ "/Users/dannluciano/sources/cpp/hello-2.6/"
+ "/Users/dannluciano/sources/cpp/examples/"
+ "/Users/dannluciano/sources/cpp/aco/src/"
+ "/Users/dannluciano/sources/cpp/oogenetic/src/"
+ "/Users/dannluciano/sources/"
+ "/Users/dannluciano/sources/mydotfiles/"
+ "/"
+ "/Users/dannluciano/Sources/CCpp/ann/src/"
+ "/Users/dannluciano/Sources/Lisp/emacs.d/"
+ "/Users/dannluciano/Sources/Lisp/emacs/"
+ "/Users/dannluciano/Sources/CCpp/examples/"
+ "/Users/dannluciano/Sources/CCpp/examples/ann/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "init.el"
+ "install.sh"
+ "grasp.cpp"
+ "colony.cpp"
+ "ant.cpp"
+ ".emacs-places"
+ "screen.css"
+ "index.html"
+ "instance.hpp"
+ "colony.hpp"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/Users/dannluciano/.emacs.d/" (19973 928) "vendor/" "tutorial/" "thumbs/" "install.sh" "init.elc" "init.el" "eproject.lst" "elpa/" "ede-projects.elc" "ede-projects.el" "cedet-1.0/" "autosaves/" "auto-save-list/" ".ercrc" "../" "./")
+
+ ("/Users/dannluciano/" (19973 1330) "sources/" "Sites/" "rails_3_1_beta_1_changes.md" "Public/" "prv-xemacs.txt" "Programs/" "Pictures/" "News/" "Music/" "Movies/" "Mestrado/" "massim-2011-1.0/" "Library/" "idlcorp/" "Google Analytics Pt II Justin Cutroni.mov" "Dropbox/" "Downloads/" "Documents/" "Desktop/" "Computing/" "271-resque.mp4" ".xdvirc" ".Xcode/" ".xchat2" ".xbmc/" ".Xauthority" ".wireshark-etc/" ".wireshark/" ".viminfo" ".vegas/" ".Trash/" ".tor/" ".TemporaryItems/" ".subversion/" ".ssh/" ".srecode/" ".smb/" ".sh_history" ".semanticdb/" ".screenrc" ".scala_history" ".rvm/" ".rnd" ".rest-client/" ".rediscli_history" ".recently-used.xbel" ".recently-used" ".recentf" ".rake_task_cache/" ".rake_completion.rb" ".putty/" ".psql_history" ".pow/" ".photorec.cfg" ".pgpass" ".pgadmin_histoqueries" ".pgadmin.log" ".passenger/" ".org.eclipse.epp.usagedata.recording.userId" ".objj_history" ".npm/" ".node_modules/" ".newsrc-dribble" ".netbeans-registration/" ".netbeans-derby/" ".netbeans/" ".nchsoftware/" ".monk" ".MacOSX/" ".m2/" ".local/" ".jedit/" ".javafx_eula_accepted" ".jason/" ".jagex_cache_32/" ".ivy2/" ".irssi/" ".irbrc" ".irb_history" ".irb-history" ".inkscape-etc/" ".ido.last" ".idlwave/" ".htoprc" ".heroku/" ".gnuplot_history" ".gnome2/" ".gitk" ".gitignore" ".gitconfig" ".gitattributes" ".git_completion.sh" ".gemrc" ".gem_completion.sh" ".gem/" ".gdb_history" ".freecol/" ".fonts/" ".fontconfig/" ".eshell/" ".emacs.d/" ".emacs-places" ".eclipse/" ".ecb-tip-of-day.elc" ".ecb-tip-of-day.el" ".ec2/" ".DS_Store" ".dropbox/" ".cups/" ".config/" ".colors.sh" ".codeplane.log" ".CFUserTextEncoding" ".cappconfig" ".bundler/" ".bashrc" ".bash_profile" ".bash_history" ".bash_completion.sh" ".autotest.backup" ".autotest" ".asadminpass" ".appcfg_rb_nag" ".adobe/" "../" "./")
+
+ ("/Users/dannluciano/sources/cpp/hvrp2/grasp/src/" (19970 50256) "vehicle_type.o" "vehicle_type.hpp" "vehicle_type.cpp" "vehicle.o" "vehicle.hpp" "vehicle.cpp" "tools.o" "tools.hpp" "tools.cpp" "TAGS" "solution.o" "solution.hpp" "solution.cpp" "nul" "makefile" "main.o" "main.cpp" "hvrp2" "grasp.o" "grasp.hpp" "grasp.cpp" "customer.o" "customer.hpp" "customer.cpp" "configuration.o" "configuration.hpp" "configuration.cpp" "../" "./")
+
+ ("/Users/dannluciano/sources/cpp/hvrp2/grasp/" (19970 45301) "~$statistics2.xlsx" "test.txt" "statistics2.xlsx" "statistics.xlsx" "statistic.txt" "src/" "routes.txt" "makefile" "instances/" "Hvrp.trace/" "gnuplot_script" "exec_script.sh" ".DS_Store" "../" "./")
+
+ ("/Users/dannluciano/Desktop/" (19969 56998) "VanRoyChapter.pdf" "stroustrup.pdf" "SOLID Design Principles Behind The Rails 3 Refactoring Presentation.pdf" "seven-languages-in-seven-weeks-a-pragmatic-guide-to-learning-programming-languages.9781934356593.53573.pdf" "REVIEWFSSp2006.pdf" "ReviewFSSp2005.pdf" "open-source-evolucao-e-tendencias.pdf" "notas_v-113.pdf" "Madrid-bs.pdf" "LRHeuristics2001.pdf" "gol.pdf" "Eu.jpg" "Essentials.pdf" "ErlangandFirst-PersonShooters.pdf" "Erlang.pdf" "down.txt" "CppEssentials.pdf" "cos-oopsla07-draft.pdf" "ContinuousDeliveryFinal_1.pdf" "build-a-javascript-framework.pdf" "Artigos/" "Alinhando-o-Design-as-Metricas-e-Conversões.pdf" "ABriefHistoryofPixel2.pdf" "A guided tour of Emacs.pdf" ".localized" ".jpg" ".DS_Store" " TUTORIAL.pt_BR.pdf" "../" "./")
+
+ ("/Users/dannluciano/sources/cpp/hvrp2/aco/src/" (19968 4888) "type_vehicle.o" "type_vehicle.hpp" "type_vehicle.cpp" "tools.o" "tools.hpp" "tools.cpp" "nul" "makefile" "main.o" "main.cpp" "instance.o" "instance.hpp" "instance.cpp" "hvrp2" "customer.o" "customer.hpp" "customer.cpp" "colony.o" "colony.hpp" "colony.cpp" "ant.o" "ant.hpp" "ant.cpp" ".DS_Store" "../" "./")
+
+ ("/Users/dannluciano/.emacs.d/auto-save-list/" (19965 17921) ".saves-962-Dann-Luciano-MacBook.local~" ".saves-80218-Dann-Luciano-MacBook.local~" ".saves-59742-Dann-Luciano-MacBook.local~" ".saves-56545-Dann-Luciano-MacBook.local~" ".saves-54582-Dann-Luciano-MacBook.local~" ".saves-46305-Dann-Luciano-MacBook.local~" ".saves-40542-Dann-Luciano-MacBook.local~" ".saves-3874-Dann-Luciano-MacBook.local~" ".saves-37443-Dann-Luciano-MacBook.local~" ".saves-3040-Dann-Luciano-MacBook.local~" ".saves-2964-Dann-Luciano-MacBook.local~" ".saves-28926-Dann-Luciano-MacBook.local~" ".saves-2587-Dann-Luciano-MacBook.local~" ".saves-2570-Dann-Luciano-MacBook.local~" ".saves-21736-Dann-Luciano-MacBook.local~" ".saves-2144-Dann-Luciano-MacBook.local~" ".saves-14211-Dann-Luciano-MacBook.local~" "../" "./")
+
+ ("/User Guides And Information/" (19410 16518) "Welcome to Snow Leopard.app/" "The FreeType Project License.rtf" "MacBook Users Guide.pdf" "ENERGY STAR.pdf" "Apple Hardware Test Read Me.app/" "AirPort and Bluetooth Regulatory Certification.pdf" ".localized/" ".fseventsd/" "../" "./")
+
+ ("/usr/" (19850 35189) "X11R6/" "X11/" "texbin/" "standalone/" "share/" "sbin/" "local/" "llvm-gcc-4.2/" "libexec/" "lib/" "include/" "etc/" "bin/" "../" "./")
+
+ ("/Users/" (19928 969) "Shared/" "iranilde/" "dannluciano/" ".localized" ".de9289.086/" "../" "./")
+
+ ("/Users/dannluciano/sources/1001/" (19768 7336) "sorting/" "sequence/" "search/" "README.md" "puzzle/" "physics/" "parsing/" "number-theory/" "modelo.txt" "math/" "lang/" "graphs/" "geography/" "economics/" "date/" "crypto/" "combinatory/" "bitwise/" "array/" ".git/" "../" "./")
+
+ ("/Users/dannluciano/sources/" (19963 40330) "ruby/" "python/" "php/" "objectivej/" "objectivec/" "mysql_conf.txt" "mylanguage/" "mydotfiles/" "lisp/" "libs/" "leilao.zip" "javascript/" "java/" "install.sh" "Icon
+" "i3r/" "humans.txt" "html/" "gitignore/" "erlang/" "Eclipse/" "dlhd.sh" "cpp/" "books/" "backup.sh" "asweb/" "app/" "1001/" ".DS_Store" "../" "./")
+
+ ("/Users/dannluciano/sources/mypage/css/" (19954 53341) "screen.css" "../" "./")
+
+ ("/Users/dannluciano/sources/mypage/" (19954 52619) "js/" "index.html" "images/" "favicon.png" "favicon.ico" "favicon.icns" "css/" "../" "./")
+
+ ("/Users/dannluciano/sources/cpp/hvrp2/aco/" (19942 56281) "src/" "instances/" "../" "./")
+
+ ("/Users/dannluciano/sources/cpp/hello-2.6/" (19947 47452) "TODO" "THANKS" "tests/" "stamp-h1" "src/" "README" "po/" "NEWS" "man/" "Makefile.in" "Makefile.am" "Makefile" "INSTALL" "gnulib/" "doc/" "COPYING" "contrib/" "configure.ac" "configure" "config.status" "config.log" "config.in" "config.h" "ChangeLog.O" "ChangeLog" "build-aux/" "AUTHORS" "aclocal.m4" "ABOUT-NLS" "#Makefile#" "../" "./")
+
+ ("/Users/dannluciano/.emacs.d/vendor/" (19945 48125) "yasnippet/" "whitespace.el" "sourcepair.el" "quack.el" "peepopen.el" "package.el" "member-function.el" "google-c-style.el" "erlang.elc" "erlang.el" "ecb-2.40/" "color-theme/" "autopair.el" "auctex/" "../" "./")
+
+ ("/Users/dannluciano/Mestrado/Textos/grasp/" (19945 49057) "sbc.bst" "sbc-template.sty" "sbc-template.log" "instancia_c75_18.PNG" "instancia_c50_13.PNG" "instancia_c20_3.PNG" "instancia_c100_19.PNG" "grasp_hvrp.tex" "grasp_hvrp.pdf" "grasp_hvrp.log" "grasp_hvrp.blg" "grasp_hvrp.bib" "grasp_hvrp.bbl" "grasp_hvrp.aux" ".DS_Store" "../" "./")
+
+ ("/Users/dannluciano/sources/cpp/examples/" (19943 814) "time.c" "time" "test_float.c" "string_concat_sintax.c" "sqlite3-test/" "serialize.c" "rbtree.h" "rbtree.c" "pthreads.c" "print.c" "neuron artificial/" "ncurses/" "mod.c" "memory.c" "main" "length_size.c" "io.c" "hash.h" "hash.c" "getopt_long.c" "getopt.c" "getcgi.c" "for.c" "dynamic_array.c" "ConversorBinario.c" "cmake/" "autotools/" "assert.c" "args.c" ".DS_Store" "../" "./")
+
+ ("/Users/dannluciano/Mestrado/" (19927 3785) "Textos/" "Template_SBC/" "TemasMScPPgSC2011-1.pdf" "Sistema Integrado de Gestão de Atividades Acadêmicas.pdf" "redesneurais.pdf" "Programação Linear/" "Oferta de disciplinas do PPgSC 2011.1-1.pdf" "Multi Agentes/" "Meta Heuristica/" "Marco Cesar Goldbarg.pdf" "Elizabeth Ferreira Gouvêa.pdf" "Cartilha APG 14jun web.pdf" "Biblioteca/" "Artigos/" "anuenciaBolsista.pdf" ".DS_Store" "../" "./")
+
+ ("/Users/dannluciano/sources/cpp/dlib/src/" (19943 10008) "node.h" "node.c" "makefile" "main.c" "main" "list.h" "list.c" "../" "./")
+
+ ("/Users/dannluciano/sources/cpp/dlib/" (19576 40451) "src/" "main" "../" "./")
+
+ ("/Users/dannluciano/sources/cpp/" (19943 915) "oogenetic/" "old.hvrp/" "mini_bench/" "matrix/" "makefile" "hvrp2/" "hello-2.6/" "geneticalgorithms/" "gcmakefile-0.5/" "examples/" "dlib/" "ddos/" "arboretum/" "ann/" ".metadata/" ".DS_Store" "../" "./")
+
+ ("/Users/dannluciano/sources/cpp/hvrp2/" (19942 56254) "grasp/" "aco/" ".gitignore" ".git/" ".DS_Store" "../" "./")
+
+ ("/Users/dannluciano/sources/mydotfiles/" (19918 3677) "README.markdown" "rake_completion.rb" "irbrc" "IR_Black.terminal" "install.sh" "gitignore" "gitconfig" "gitattributes" "git_completion.sh" "gemrc" "gem_completion.sh" "emacs.d/" "colors.sh" "bash_profile" "bash_completion.sh" ".git/" ".DS_Store" "../" "./")
+
+ ("/Users/dannluciano/sources/cpp/hvrp2/instances/" (19912 9558) "old.c75_18mix.txt" "old.c75_17mix.txt" "old.c50_14mix.txt" "old.c50_13mix.txt" "old.c100_19mix.txt" "c75_18mix.txt" "c75_17mix.txt" "c50_16mix.txt" "c50_15mix.txt" "c50_14mix.txt" "c50_13mix.txt" "c20_6mix.txt" "c20_5mix.txt" "c20_4mix.txt" "c20_3mix.txt" "c100_20mix.txt" "c100_19mix.txt" "../" "./")
+
+ ("/Users/dannluciano/.ssh/" (19924 35344) "known_hosts" "id_rsa.pub" "id_rsa" "hayala.pem" "../" "./")
+
+ ("/Users/dannluciano/sources/cpp/hvrp2/src/" (19940 59404) "vehicle_type.o" "vehicle_type.hpp" "vehicle_type.cpp" "vehicle.o" "vehicle.hpp" "vehicle.cpp" "tools.o" "tools.hpp" "tools.cpp" "TAGS" "solution.o" "solution.hpp" "solution.cpp" "nul" "makefile" "main.o" "main.cpp" "hvrp2" "grasp.o" "grasp.hpp" "grasp.cpp" "customer.o" "customer.hpp" "customer.cpp" "configuration.o" "configuration.hpp" "configuration.cpp" ".DS_Store" "../" "./")
+
+ ("/Users/dannluciano/Mestrado/Textos/" (19917 47781) "hvrp/" "grasp/" "../" "./")
+
+ ("/Users/dannluciano/Mestrado/Produções/grasp_hvrp/" (19917 30185) "sbc.bst" "sbc-template.sty" "sbc-template.log" "main.bib" "grasp_hvrp.tex" "grasp_hvrp.pdf" "grasp_hvrp.log" "grasp_hvrp.dvi" "grasp_hvrp.blg" "grasp_hvrp.bbl" "grasp_hvrp.aux" "../" "./")
+
+ ("/Users/dannluciano/Mestrado/Produções/" (19917 29034) "hvrp/" "grasp_hvrp/" "../" "./")
+
+ ("/Users/dannluciano/Mestrado/Produções/grasp_hvrp/" (19917 30185) "sbc.bst" "sbc-template.sty" "sbc-template.log" "main.bib" "grasp_hvrp.tex" "grasp_hvrp.pdf" "grasp_hvrp.log" "grasp_hvrp.dvi" "grasp_hvrp.blg" "grasp_hvrp.bbl" "grasp_hvrp.aux" "../" "./")
+
+ ("/Users/dannluciano/Mestrado/Produções/hvrp/" (19916 41673) "table.jpg" "sbc.bst" "sbc-template.sty" "sbc-template.log" "Makefile" "main.tex" "main.synctex.gz" "main.pdf" "main.log" "main.dvi" "main.blg" "main.bib" "main.bbl" "main.aux" "fig2.jpg" "fig1.jpg" "caption2.sty" ".git/" ".DS_Store" "../" "./")
+
+ ("/Users/dannluciano/Mestrado/Produções/" (19917 29034) "hvrp/" "grasp_hvrp/" "../" "./")
+
+ ("/Users/dannluciano/Mestrado/Produções/problemas de roteamento de veiculos com frotas heterogêneas/" (19916 41673) "table.jpg" "sbc.bst" "sbc-template.sty" "sbc-template.log" "Makefile" "main.tex" "main.synctex.gz" "main.pdf" "main.log" "main.dvi" "main.blg" "main.bib" "main.bbl" "main.aux" "fig2.jpg" "fig1.jpg" "caption2.sty" ".git/" ".DS_Store" "../" "./")
+
+ ("/Users/dannluciano/Mestrado/Produções/problemas de roteamento de veiculos com frotas heterogêneas/" (19916 41673) "table.jpg" "sbc.bst" "sbc-template.sty" "sbc-template.log" "Makefile" "main.tex" "main.synctex.gz" "main.pdf" "main.log" "main.dvi" "main.blg" "main.bib" "main.bbl" "main.aux" "fig2.jpg" "fig1.jpg" "caption2.sty" ".git/" ".DS_Store" "../" "./")
+
+ ("/Users/dannluciano/sources/cpp/oogenetic/src/" (19907 33769) "population.o" "population.h" "population.cpp" "Makefile" "main.o" "main.cpp" "individual.o" "individual.h" "individual.cpp" "genetic_algorithm.o" "genetic_algorithm.h" "genetic_algorithm.cpp" "config.o" "config.h" "config.cpp" "../" "./")
+
+ ("/Users/dannluciano/Downloads/bsnes_v078-source/bsnes/gameboy/cpu/" (19899 50078) "timing/" "serialization.cpp" "mmio/" "cpu.hpp" "cpu.cpp" "core/" "../" "./")
+
+ ("/Users/dannluciano/Downloads/bsnes_v078-source/bsnes/gameboy/" (19899 50078) "system/" "scheduler/" "memory/" "Makefile" "lcd/" "interface/" "gameboy.hpp" "cpu/" "cartridge/" "apu/" "../" "./")
+
+ ("/Users/dannluciano/Mestrado/Produções/problemas de roteamento de veiculos com frotas heterogêneas/" (19892 26314) "table.jpg" "sbc.bst" "sbc-template.sty" "sbc-template.log" "Makefile" "main.tex" "main.synctex.gz" "main.pdf" "main.log" "main.dvi" "main.blg" "main.bib" "main.bbl" "main.aux" "fig2.jpg" "fig1.jpg" "caption2.sty" ".git/" ".DS_Store" "../" "./")
+
+ ("/Users/dannluciano/.emacs.d/vendor/ecb-2.40/info-help/" (18958 49297) "ecb.info-3" "ecb.info-2" "ecb.info-1" "ecb.info" "../" "./")
+
+ ("/Users/dannluciano/.emacs.d/vendor/ecb-2.40/" (19883 24417) "tree-buffer.elc" "tree-buffer.el" "silentcomp.elc" "silentcomp.el" "RELEASE_NOTES" "README" "NEWS" "Makefile" "make.bat" "info-help/" "html-help/" "ecb.texi" "ecb.elc" "ecb.el" "ecb-winman-support.elc" "ecb-winman-support.el" "ecb-util.elc" "ecb-util.el" "ecb-upgrade.elc" "ecb-upgrade.el" "ecb-tod.elc" "ecb-tod.el" "ecb-symboldef.elc" "ecb-symboldef.el" "ecb-speedbar.elc" "ecb-speedbar.el" "ecb-navigate.el" "ecb-mode-line.elc" "ecb-mode-line.el" "ecb-method-browser.elc" "ecb-method-browser.el" "ecb-makedef.mk" "ecb-layout.elc" "ecb-layout.el" "ecb-layout-defs.elc" "ecb-layout-defs.el" "ecb-jde.elc" "ecb-jde.el" "ecb-images/" "ecb-help.elc" "ecb-help.el" "ecb-file-browser.elc" "ecb-file-browser.el" "ecb-face.elc" "ecb-face.el" "ecb-examples.elc" "ecb-examples.el" "ecb-eshell.elc" "ecb-eshell.el" "ecb-cycle.elc" "ecb-cycle.el" "ecb-create-layout.elc" "ecb-create-layout.el" "ecb-compilation.elc" "ecb-compilation.el" "ecb-compatibility.elc" "ecb-compatibility.el" "ecb-common-browser.elc" "ecb-common-browser.el" "ecb-cedet-wrapper.elc" "ecb-cedet-wrapper.el" "ecb-autoloads.el" "ecb-autogen.elc" "ecb-autogen.el" "ecb-analyse.el" "ecb-advice-test.elc" "ecb-advice-test.el" "../" "./")
+
+ ("/Users/dannluciano/.emacs.d/vendor/yasnippet/snippets/text-mode/cc-mode/c++-mode/" (19882 28983) "using" "template" "ns" "inc" "class" "beginend" "../" "./")
+
+ ("/Users/dannluciano/sources/cpp/hvrp/src/" (19877 43767) "vehicle.o" "vehicle.h" "vehicle.c" "utils.o" "utils.h" "utils.c" "step.o" "step.h" "step.c" "nul" "makefile" "main.o" "main.h" "main.c" "list.o" "list.h" "list.c" "hvrp" "grasp.o" "grasp.h" "grasp.c" "customer.o" "customer.h" "customer.c" "../" "./")
+
+ ("/Users/dannluciano/Sites/" (19872 47040) "index.html" "images/" "cgi-bin/" ".localized" ".DS_Store" "../" "./")
+
+ ("/Users/dannluciano/sources/cpp/hvrp/.git/" (19877 3690) "refs/" "objects/" "logs/" "info/" "index" "hooks/" "HEAD" "description" "config" "COMMIT_EDITMSG" "../" "./")
+
+ ("/Users/dannluciano/.emacs.d/tutorial/" (19872 51417) "English.tut" "../" "./")
+
+ ("/Users/dannluciano/sources/libs/" (19865 9636) "yajl/" "wymeditor/" "sinatra/" "rails/" "rack/" "minix/" "merb/" "jquery.plugins/" "gnulib/" "glib/" "coreutils/" "cjson/" "cappuccino/" ".DS_Store" "../" "./")
+
+ ("/Users/dannluciano/sources/libs/minix/" (19636 44286) "trunk/" ".svn/" "../" "./")
+
+ ("/Users/dannluciano/.emacs.d/vendor/yasnippet/snippets/text-mode/cc-mode/" (19869 13043) "while" "tds" "struct" "pf" "once" "objc-mode/" "main" "inc.1" "inc" "if" "for" "do" "csharp-mode/" "c-mode/" "c++-mode/" ".DS_Store" "../" "./")
+
+ ("/Users/dannluciano/sources/cpp/hvrp/" (19869 15205) "vertices" "src/" "resources/" "plot_input" "output" "makefile" "libs/" "instances/" "include/" "hvrp" "gnuplot_script" "docs/" ".gitignore" ".git/" "../" "./")
+
+ ("/Users/dannluciano/sources/cpp/hvrp/instances/" (19850 44684) "c75_18mix.txt" "c75_17mix.txt" "c50_16mix.txt" "c50_15mix.txt" "c50_14mix.txt" "c50_13mix.txt" "c20_6mix.txt" "c20_5mix.txt" "c20_4mix.txt" "c20_3mix.txt" "c100_20mix.txt" "c100_19mix.txt" "../" "./")
+
+ ("/Users/dannluciano/sources/cpp/hrvp/src/" (19849 15143) "nul" "makefile" "main.o" "main.c" "hrpv" "c75_18mix.txt" "c75_17mix.txt" "c50_16mix.txt" "c50_15mix.txt" "c50_14mix.txt" "c50_13mix.txt" "c20_6mix.txt" "c20_5mix.txt" "c20_4mix.txt" "c20_3mix.txt" "c100_20mix.txt" "c100_19mix.txt" "../" "./")
+
+ ("/Users/dannluciano/sources/cpp/hrvp/" (19849 5362) "src/" "makefile" "libs/" "index.html?from=glow" "include/" "hrpv" "Firefox Setup 4.0.exe" "Firefox 4.0.dmg" "download.html?product=firefox-4.0" "docs/" ".git/" "../" "./")
+
+ ("/Users/dannluciano/.emacs.d/vendor/yasnippet/snippets/text-mode/" (19664 14845) "time" "sql-mode/" "snippet-mode/" "scala-mode/" "ruby-mode/" "rst-mode/" "python-mode/" "perl-mode/" "nxml-mode/" "markdown-mode/" "latex-mode/" "javascript-mode/" "html-mode/" "f90-mode/" "erlang-mode/" "email" "emacs-lisp-mode/" "css-mode/" "cc-mode/" "../" "./")
+
+ ("/Users/dannluciano/.emacs.d/vendor/yasnippet/snippets/" (19625 52984) "text-mode/" "../" "./")
+
+ ("/Users/dannluciano/.emacs.d/vendor/yasnippet/" (19625 52984) "yasnippet.el" "snippets/" "dropdown-list.el" "../" "./")
+
+ ("/Users/dannluciano/sources/cpp/mini_bench/" (19827 24222) "test/" "src/" "Makefile" "libmini_bench.a" "configure.scan" "autoscan.log" "../" "./")
+
+ ("/Users/dannluciano/sources/cpp/mini_bench/test/" (19827 24222) "test_mini_bench.c" "test" "../" "./")
+
+ ("/Users/dannluciano/sources/cpp/arboretum/lib/gcc/" (19827 22949) "Makefile.mingw" "Makefile" "../" "./")
+
+ ("/Users/dannluciano/sources/cpp/arboretum/lib/" (19492 46339) "libarboretum.a" "gcc/" "bcc6/" "bcc5/" "../" "./")
+
+ ("/Users/dannluciano/sources/cpp/arboretum/sample/sample-01_slimtree/" (19827 22822) "statistics/" "SlimTree.dat" "plot-script" "plot-brazilian-cities" "plot-best" "Makefile" "genetic_algorithm.o" "genetic_algorithm.h" "genetic_algorithm.cpp" "Doxyfile" "city.o" "city.h" "city.cpp" "Cities2" "Cities.o" "Cities.cpp" "Cities.bpr" "Cities.bpf" "Cities" "BrazilianCitiesII.txt" "BrazilianCities500.txt" "BrazilianCities.txt" "brasil.png" "best" "app.o" "app.h" "app.cpp" ".DS_Store" "../" "./")
+
+ ("/Users/dannluciano/sources/cpp/arboretum/sample/" (19461 10882) "sample-02_slimtree/" "sample-01_vptree/" "sample-01_slimtreemamview/" "sample-01_slimtree/" "sample-01_ghtree/" "sample-01_dummytree/" "sample-01_DBMtree/" "../" "./")
+
+ ("/Users/dannluciano/sources/cpp/arboretum/" (19825 39606) "src/" "sample/" "README" "lib/" "include/" "docs/" ".DS_Store" "../" "./")
+
+ ("/Users/dannluciano/sources/cpp/aco/src/" (19820 4330) "Makefile" "libaco.a" "CMakeLists.txt" "CMakeFiles/" "cmake_install.cmake" "aco.c" "../" "./")
+
+ ("/Users/dannluciano/sources/cpp/aco/src/CMakeFiles/aco.dir/" (19814 24831) "progress.make" "link.txt" "flags.make" "DependInfo.cmake" "depend.make" "depend.internal" "cmake_clean_target.cmake" "cmake_clean.cmake" "C.includecache" "build.make" "aco.c.o" "../" "./")
+
+ ("/Users/dannluciano/sources/cpp/aco/src/CMakeFiles/" (19814 24828) "progress.marks" "CMakeDirectoryInformation.cmake" "aco.dir/" "../" "./")
+
+ ("/Users/dannluciano/sources/cpp/aco/" (19814 24831) "src/" "Makefile" "main.c" "main" "CMakeLists.txt" "CMakeFiles/" "CMakeCache.txt" "cmake_install.cmake" ".git/" "../" "./")
+
+ ("/Users/dannluciano/sources/cpp/oogenetic/" (19738 44330) "TODO" "src/" "REPORTING-BUGS" "README" "Makefile" "main" "LICENSE.LGPL" "INSTALL" "COPYING" "CHANGES" "AUTHORS" ".gitignore" ".gitattributes" ".git/" ".DS_Store" "../" "./")
+
+ ("/Users/dannluciano/Sources/Lisp/emacs.d/" (19612 65450) "vendor/" "url/" "themes/" "snippets/" "init.elc" "init.el" "ede-projects.el" "autosaves/" "auto-save-list/" ".gitmodules" ".gitignore" ".git/" ".DS_Store" "../" "./")
+
+ ("/Users/dannluciano/sources/cpp/ann/" (19654 61029) "src/" "include/" "example/" "doc/" ".git/" "../" "./")
+
+ ("/Users/dannluciano/sources/objectivec/" (19754 25292) "Learning/" "Learn/" "IphoneDev/" "Hello World/" "BookStore/" ".DS_Store" "../" "./")
+
+ ("/Users/dannluciano/Sources/CCpp/ann/src/" (19611 27558) "neuron.h" "neuron.cpp" "main.cpp~" "main.cpp" "#main.cpp#" "../" "./")
+
+ ("/Users/dannluciano/Sources/Lisp/" (19611 39439) "emacs.d/" ".emacs/" ".DS_Store" "../" "./")
+
+ ("/Users/dannluciano/Sources/Lisp/emacs/" (19611 35041) "vendor/" "url/" "themes/" "snippets/" "install.sh" "init.el~" "init.el" ".gitmodules" ".gitignore" ".git/" "../" "./")
+
+ ("/Applications/Emacs.app/Contents/Resources/site-lisp/haskell-mode/" (19051 36245) "inf-haskell.elc" "inf-haskell.el" "haskell-site-file.el" "haskell-simple-indent.elc" "haskell-simple-indent.el" "haskell-mode.elc" "haskell-mode.el" "haskell-indent.elc" "haskell-indent.el" "haskell-hugs.el" "haskell-ghci.el" "haskell-font-lock.elc" "haskell-font-lock.el" "haskell-doc.elc" "haskell-doc.el" "haskell-decl-scan.elc" "haskell-decl-scan.el" "haskell-cabal.elc" "haskell-cabal.el" "haskell-c.elc" "haskell-c.el" "../" "./")
+
+ ("/Users/dannluciano/Sources/CCpp/ann/" (19607 58678) "src/" "../" "./")
+
+ ("/Users/dannluciano/Sources/" (19607 43737) "Templates/" "Ruby/" "Python/" "PHP/" "ObjectiveC/" "mysql_conf.txt" "MyLanguage/" "MyDotFiles/" "Lua/" "Lisp/" "JavaScript/" "Java/" "iPhone/" "Html5/" "Eclipse/" "CCpp/" "Books/" "backup.sh" "Artigos/" ".DS_Store" "../" "./")
+
+ ("/Users/dannluciano/Sources/CCpp/examples/" (19594 43289) "test_float.c" "sqlite3-test/" "neuron artificial/" "ncurses/" "main" "getopt_long.c" "getopt.c" "getcgi.c" "ConversorBinario.c" "autotools/" "args.c" ".DS_Store" "../" "./")
+
+ ("/Users/dannluciano/Sources/CCpp/" (19588 58767) "sqlite-3.7.0.1/" "ruby/" "oogenetic/" "minix/" "makefile" "hello-2.6/" "glibc/" "geneticalgorithms/" "examples/" "doxygen-1.7.1/" "dlib/" "clisp-2.49/" "arboretum/" "ann/" ".metadata/" ".DS_Store" "../" "./")
+
+ ("/Users/dannluciano/Sources/CCpp/examples/ann/" (19560 42031) "README" "neuron.o" "neuron.h" "neuron.c" "makefile" "main.o" "main.h" "main.c" "Main" "list.o" "list.h" "list.c" "config.h" ".gitignore" ".git/" ".DS_Store" "../" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t
