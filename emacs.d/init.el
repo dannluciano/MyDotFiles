@@ -53,7 +53,6 @@
 ;; (setq TeX-PDF-mode t)
 
 ;; Set Encondig UTF-8
-(set-frame-font "Menlo-14")
 (set-terminal-coding-system 'utf-8)
 (set-keyboard-coding-system 'utf-8)
 (prefer-coding-system 'utf-8)
@@ -79,6 +78,7 @@
  '(ecb-type-tag-expansion (quote ((default "class" "interface" "group" "namespace") (c-mode . all-specifiers))))
  '(ecb-vc-enable-support t)
  '(ecb-windows-width 0.2)
+ '(fill-column 80)
  '(global-font-lock-mode t nil (font-lock))
  '(inhibit-startup-screen t)
  '(initial-buffer-choice t)
@@ -164,31 +164,6 @@
 (add-to-list 'eshell-output-filter-functions 'eshell-handle-ansi-color)
 
 
-;; Textmate
-
-(require 'textmate)
-(require 'peepopen)
-(textmate-mode)
-(setq ns-pop-up-frames nil)
-(define-key *textmate-mode-map* [(super t)] 'peepopen-goto-file-gui)
-
-
-;; Mac-friendley keys map
-
-(global-set-key (kbd "s-b") 'list-buffers)
-(global-set-key (kbd "s-0") 'delete-window)
-(global-set-key (kbd "s-1") 'delete-other-windows)
-(global-set-key (kbd "s-2") 'split-window-vertically)
-(global-set-key (kbd "s-3") 'split-window-horizontally)
-(global-set-key (kbd "s-5") 'eassist-switch-h-cpp)
-(global-set-key (kbd "s-6") 'flymake-mode)
-(global-set-key (kbd "s-7") 'ecb-activate)
-(global-set-key (kbd "s-8") 'ecb-deactivate)
-(global-set-key (kbd "s-;") 'comment-or-uncomment-region-or-line)
-(global-set-key (kbd "<s-right>") 'next-buffer)
-(global-set-key (kbd "<s-left>") 'previous-buffer)
-
-
 ;; Recompile Function
 ;; https://github.com/technomancy/emacs-starter-kit/blob/master/starter-kit-defuns.el#L158
 (defun recompile-init ()
@@ -244,18 +219,19 @@
 (defun my-c-common-hook()
 	(require 'member-function)
   (local-set-key "\C-cm" 'expand-member-functions)
+	(turn-on-auto-fill)
 )
 (add-hook 'c-mode-hook 'my-c-common-hook)
 (add-hook 'c++-mode-hook 'my-c-common-hook)
 
 (defun my-c-hook()
-  (setq c-default-style "gnu")
+  (c-set-style "gnu")
 )
 (add-hook 'c-mode-hook 'my-c-hook)
 
 (add-to-list 'auto-mode-alist '("\\.cpp$" . c++-mode))
 (defun my-cpp-hook()
-  (setq c-default-style "stroustrup")
+  (c-set-style "stroustrup")
 )
 (add-hook 'c++-mode-hook 'my-cpp-hook)
 
@@ -319,7 +295,7 @@
   "Return a prompt with VC branch and dirty state."
   (let ((branch (eshell/branch)))
     (propertize (concat (and branch (concat branch " "))
-                        (eshell/pwd)
+                        ;; (eshell/pwd)
                         (cond ((= (user-uid) 0) " # ")
                               ((and branch (eshell/vc-dirty)) eshell-vc-dirty)
                               (t " $ ")))
@@ -406,10 +382,12 @@
 
 
 (setq system-specific-config (concat dotfiles-dir system-name ".el")
-      user-specific-config (concat dotfiles-dir user-login-name ".el"))
+      user-specific-config (concat dotfiles-dir user-login-name ".el")
+			system-type-specific-config (concat dotfiles-dir (prin1-to-string system-type) ".el"))
 
 (if (file-exists-p system-specific-config) (load system-specific-config))
 (if (file-exists-p user-specific-config) (load user-specific-config))
+(if (file-exists-p system-type-specific-config) (load system-type-specific-config))
 
 
 (defun toggle-fullscreen ()
