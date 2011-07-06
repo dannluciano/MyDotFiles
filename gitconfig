@@ -15,7 +15,6 @@
 	who = shortlog -s --
 	fl = log -p
 [core]
-	editor = mate -wl1
-	excludefile = /Users/dannluciano/.gitignore
+	excludefile = ~/.gitignore
 [help]
 	autocorrect = 1
