@@ -9,8 +9,7 @@ cp git_completion.sh ~/.git_completion.sh
 cp gitattributes ~/.gitattributes
 cp gitconfig ~/.gitconfig
 cp gitignore ~/.gitignore
-cp emacs.d ~/.emacs.d
- 
+cp emacs.d ~/.emacs.d 
 cp irbrc ~/.irbrc
 cp rake_completion.rb ~/.rake_completion.rb
  
