@@ -18,7 +18,6 @@ export YELLOW="\[\033[0;33m\]"
 export EDITOR="/usr/bin/mate -w"
 
 source ~/.git_completion.sh
-source ~/.bash_completion.sh
 
 alias ls="ls -G"
 alias showip="ifconfig | grep broadcast | sed 's/.*inet \(.*\) netmask.*/\1/'"
@@ -37,6 +36,7 @@ complete -C ~/.rake_completion.rb -o default rake
 
 # rvm
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
+[[ -r $rvm_path/scripts/completion ]] && . $rvm_path/scripts/completion
 
 # [usuario@host] ruby version path pwd if .git brach
 PS1='\n[\u@\h] \[\033[1;31m\]`~/.rvm/bin/rvm-prompt i v` \[\033[1;30m\]\w\a\[\033[0m\]$(__git_ps1 " \[\033[1;37m\](%s)\[\033[0m\]")\n\$ '
@@ -49,3 +49,8 @@ function todone() { sed -i -e "/$*/d" $TODO; }
 export NARWHAL_ENGINE=jsc
 
 export CAPP_BUILD="/usr/local/cappuccino/Build"
+
+if [ -f `brew --prefix`/etc/bash_completion ]; then
+	. `brew --prefix`/etc/bash_completion
+fi
+	
