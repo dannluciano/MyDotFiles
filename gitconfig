@@ -1,6 +1,9 @@
 [user]
 	name = Dann Luciano
 	email = dannluciano@gmail.com
+[github]
+	user = dannluciano
+	token = 3fd5e91bbe55d4f6fa34d1162a477508
 [color]
 	diff = auto
 	status = auto

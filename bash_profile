@@ -1,10 +1,10 @@
-export PATH="$PATH:/usr/local/narwhal/bin/"
+# Exports
 export ARCHFLAGS="-arch x86_64"
-export NODE_PATH="/usr/local/lib/node_modules"
-
 export GREP_OPTIONS="--color=auto"
 export GREP_COLOR="4;33"
+export EDITOR="emacs"
 
+# Colors Exports
 export BLUE="\[\033[0;34m\]"
 export NO_COLOR="\[\e[0m\]"
 export GRAY="\[\033[1;30m\]"
@@ -15,10 +15,15 @@ export LIGHT_RED="\[\033[1;31m\]"
 export RED="\[\033[0;31m\]"
 export WHITE="\[\033[1;37m\]"
 export YELLOW="\[\033[0;33m\]"
-export EDITOR="/usr/bin/mate -w"
 
-source ~/.git_completion.sh
+# Node PATH
+export NODE_PATH="/usr/local/lib/node_modules"
 
+# Android PATH
+export ANDROID_HOME="~/.android-sdk"
+export PATH="$PATH:$ANDROID_HOME/tools"
+
+# Misc Alias
 alias ls="ls -G"
 alias showip="ifconfig | grep broadcast | sed 's/.*inet \(.*\) netmask.*/\1/'"
 alias myip="curl http://www.whatismyip.com/automation/n09230945.asp"
@@ -30,9 +35,13 @@ alias screensave="nice -n +20 /System/Library/Frameworks/ScreenSaver.framework/V
 alias lock="open /System/Library/Frameworks/ScreenSaver.framework/Versions/A/Resources/ScreenSaverEngine.app"
 alias make="make -j2"
 
-
-# complete rake tasks
-complete -C ~/.rake_completion.rb -o default rake
+# Bundle ALias
+alias b="bundle"
+alias bi="b install --path vendor"
+alias bil="bi --local"
+alias bu="b update"
+alias be="b exec"
+alias binit="bi && b package && echo 'vendor/ruby' >> .gitignore"
 
 # rvm
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
@@ -46,11 +55,13 @@ export TODO=~/Dropbox/todo
 function todo() { if [ $# == "0" ]; then cat $TODO; else echo "• $@" >> $TODO; fi }
 function todone() { sed -i -e "/$*/d" $TODO; }
 
-export NARWHAL_ENGINE=jsc
-
-export CAPP_BUILD="/usr/local/cappuccino/Build"
-
+# Bash Completion
 if [ -f `brew --prefix`/etc/bash_completion ]; then
 	. `brew --prefix`/etc/bash_completion
 fi
-	
+
+# Complete Rake Tasks
+complete -C ~/.rake_completion.rb -o default rake
+
+# Complete Git Commands
+source ~/.git_completion.sh
