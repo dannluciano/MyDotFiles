@@ -17,6 +17,7 @@
 	st = status
 	who = shortlog -s --
 	fl = log -p
+	hash = log master -n 1 --pretty=format:%H
 [core]
 	excludefile = ~/.gitignore
 [help]

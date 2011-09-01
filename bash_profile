@@ -2,7 +2,7 @@
 export ARCHFLAGS="-arch x86_64"
 export GREP_OPTIONS="--color=auto"
 export GREP_COLOR="4;33"
-export EDITOR="emacs"
+export EDITOR="/usr/local/Cellar/emacs/HEAD/Emacs.app/Contents/MacOS/bin/emacsclient"
 
 # Colors Exports
 export BLUE="\[\033[0;34m\]"
@@ -65,3 +65,39 @@ complete -C ~/.rake_completion.rb -o default rake
 
 # Complete Git Commands
 source ~/.git_completion.sh
+
+
+# Commands
+
+function rails {
+		if [ -e script/rails ]; then
+				script/rails $@
+		else
+				`which rails` $@
+		fi
+}
+
+function rake {
+		if [ -e Gemfile ]; then
+				bundle exec rake $@
+		else
+				`which rake` $@
+		fi
+}
+
+function heroku {
+		if [ -e Gemfile ]; then
+				bundle exec heroku $@
+		else
+				`which heroku` $@
+		fi
+}
+
+function rspec {
+		if [ -e Gemfile ]; then
+				bundle exec rspec $@
+		else
+				`which rspec` $@
+		fi
+}
+
